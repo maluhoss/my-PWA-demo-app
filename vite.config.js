@@ -46,5 +46,6 @@ const manifestForPlugin = {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+	base: '/my-PWA-demo-app/',
 	plugins: [react(), VitePWA(manifestForPlugin)],
 });

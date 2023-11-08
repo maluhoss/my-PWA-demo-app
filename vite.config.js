@@ -3,8 +3,10 @@ import { VitePWA } from 'vite-plugin-pwa';
 import react from '@vitejs/plugin-react';
 
 const manifestForPlugin = {
-	registerType: 'prompt',
-	includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'masked-icon.svg'],
+	workbox: {
+		globPatterns: ['**/*'],
+	},
+	includeAssets: ['**/*'],
 	manifest: {
 		name: 'ToDoList',
 		short_name: 'Todo',

@@ -3,10 +3,10 @@
 	"short_name": "Todo",
 	"description": "A basic Todo list app.",
 	"theme_color": "#171717",
-	"start_url": "/",
+	"start_url": "/my-PWA-demo-app/",
 	"display": "standalone",
 	"background_color": "#fff",
-	"scope": "/",
+	"scope": "/my-PWA-demo-app/",
 	"orientation": "portrait",
 	"icons": [
 		{
